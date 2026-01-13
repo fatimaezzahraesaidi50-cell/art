@@ -12,7 +12,7 @@ window.onload = function() {
     modalImg = document.getElementById("modal-img");
     closeBtn = document.getElementsByClassName("close")[0];
     
-    console.log("Page Vintage Art Gallery chargée avec succès");
+    console.log(" Art galerie chargée avec succès");
     console.log("Titre de la page : " + document.title);
     console.log("URL : " + window.location.href);
     
@@ -46,7 +46,7 @@ function openModal(title, theme, desc, img) {
 function closeModal() {
     modal.style.display = "none";
     document.body.style.overflow = "auto";
-    document.title = "Vintage Art Gallery";
+    document.title = "art galerie";
     window.status = "";
     console.log("Modal fermé");
 }
